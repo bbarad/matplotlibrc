@@ -367,7 +367,7 @@ figure.max_open_warning : 40  # The maximum number of figures to open through
 # e.g., you may want a higher resolution, or to make the figure
 # background white
 savefig.dpi         : 300      # figure dots per inch
-savefig.format      : png      # png, ps, pdf, svg
+savefig.format      : svg      # png, ps, pdf, svg
 savefig.bbox        : tight # 'tight' or 'standard'.
 savefig.pad_inches  : 0.1      # Padding to be used when bbox is set to 'tight'
 savefig.jpeg_quality: 95       # when a jpeg is saved, the default quality parameter.
