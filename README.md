@@ -1,7 +1,8 @@
 matplotlibrc
 ======================
+## The matplotlibrc file works somewhat differently in recent matplotlib versions, so use this file with caution. An update will come soon™.
 
-##Summary:
+## Summary:
 
 ![example_image](test.png)
 
@@ -15,7 +16,7 @@ The title also correspondingly hangs too low with the new, larger font. To fix t
 
 Examples of these changes are below as well as in the test script which generates the image at the top of this readme.
 
-##Example usage:
+## Example usage:
 
 This script will work with any matplotlib as long as it is in the right place (see Conditions to Run) but I recommend the following additional bits in your plotting script:
 
@@ -29,7 +30,7 @@ ax.set_xlabel("XLabel goes here",labelpad=10)
 
 Additionally, you should probably mess with the formatting for error bars but I don't have a recommended setting for this... Please contribute if you find one!
 
-##Conditions to run:
+## Conditions to run:
 
 Copy the `matplotlibrc` file to `~/.matplotlib/matplotlibrc`.
 
@@ -39,7 +40,7 @@ If you feel fancy, you can run:
 ln -s ./matplotlibrc ~/.matplotlibrc/matplotlibrc
 ```
 
-###Software requirements:
+### Software requirements:
 
 ```
 python==2.7.8
