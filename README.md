@@ -37,7 +37,7 @@ Copy the `matplotlibrc` file to `~/.matplotlib/matplotlibrc`.
 If you feel fancy, you can run:
 
 ```bash
-ln -s ./matplotlibrc ~/.matplotlibrc/matplotlibrc
+ln -s ./matplotlibrc ~/.matplotlib/matplotlibrc
 ```
 
 ### Software requirements:
